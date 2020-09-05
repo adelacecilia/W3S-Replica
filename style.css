@@ -1,0 +1,24 @@
+body{
+  background-color: powderblue;
+  }
+  h1 {
+    color: blue;
+    }
+  p {
+    color: red;
+    }
+  h1 {
+    color:blue;
+    font-family: Verdana;
+    font-size: 250%;
+    }
+  p {
+    color: red;
+    font-family: Courier;
+    font-size: 160%;
+  }
+  .parag {
+    border: 3px solid green;
+    padding: 20px;
+    margin: 40px;
+  }

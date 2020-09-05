@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Image Size - Width and Height</title>
+    <style>
+    /* This style sets the width of all images to 100%: */
+    img {
+    width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Image Size</h2>
+    <p>Here we use the style attribute to specify the width 
+    and height of an image:</p>
+    <img src="https://www.formacionbonificadaelite.com/wp-content/uploads/2016/03/html-300x225.jpg" 
+    alt="img_html" 
+    style="width:500px;height:400px;">
+
+    <h2>Width/Height Attributes or Style?</h2>
+    <p>The first image uses the width attribute (set to 128 pixels), 
+    but the style in the head section overrides it, and sets the width 
+    to 100%.</p>
+    <img src=https://www.iconsdb.com/icons/preview/black/html-xxl.png
+    alt="img31" 
+    width="128" height="128">
+    <p>The second image uses the style attribute to set the width to 
+      128 pixels, this will not be overridden by the style in 
+      the head section:</p>
+    <img src=https://www.iconsdb.com/icons/preview/black/html-xxl.png
+    alt="img31" 
+    style="width:128px;height:128px;">
+
+    <h2>Images in another folder</h2>
+    <p>It is common to store images in a sub-folder.
+    You must then include the folder name in the src attribute:</p>
+    <img src="asset/image/husky.png"
+    alt="husky"
+    style="width:300px;height:300px;">
+
+    <h2>Images on another server</h2>
+    <img src="https://www.computerhope.com/cdn/color-code.jpg"
+    alt="color code"
+    style="width:250px;height:250px;">
+
+    <h2>Animated Images</h2>
+    <p>HTML allow GIFs, which is soooo cool! xX </p>
+    <img src="https://cdn.dribbble.com/users/2536766/screenshots/6292605/cat-gif.gif"
+    alt="cat-gif"
+    style="width:300px;height:300px;"
+
+    <h2>Image as a link</h2>
+    <p>Click here!</p>
+    <a href="https://cdn.icon-icons.com/icons2/2119/PNG/512/google_icon_131222.png">
+    <img src="https://cdn.icon-icons.com/icons2/2119/PNG/512/google_icon_131222.png"
+    alt="google_icon"
+    style="width:100px;height:100px;"
+
+    <h2>Floating Images</h2>
+    <p><strong>Float the image to the right.</strong></p>
+    <p>
+    <img src="https://media3.giphy.com/media/loj9RWUu7DdSoxrjWd/giphy.gif"
+    alt="smiley face"
+    style="float:left;width:40px;height:40px;">
+    A paragraph with a floating image. 
+    A paragraph with a floating image. 
+    A paragraph with a floating image.
+    </p>
+
+    <p><strong>Float the image to the right.</strong></p>
+    <p>
+    <img src="https://media3.giphy.com/media/loj9RWUu7DdSoxrjWd/giphy.gif"
+    alt="smiley face"
+    style="float:right;width:40px;height:40px;">
+    A paragraph with a floating image. 
+    A paragraph with a floating image. 
+    A paragraph with a floating image.
+    </p>
+  </body>
+</html>

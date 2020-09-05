@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images Depending On Browser Width</title>
+  </head>
+  <body>
+  <h2>Responsive Images Depending On Browser Width</h2>
+  <p>Resize the browser width and the image will change.</p>
+  <picture>
+    <source srcset="responsive-web-design\asset\images\black.cat.jpg" 
+    media="(max-width: 600px)">
+    <source srcset="responsive-web-design\asset\images\white.cat.jpg" 
+    media="(max-width: 1500px)">
+    <source srcset="responsive-web-design\asset\images\flowers.jpg">
+    <img src="./asset/images/flowers.jpg" alt="Flowers" >
+    <img src="asset/images/flowers.jpg" alt="qewf">
+  </picture>
+  
+  </body>
+</html>
